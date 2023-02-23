@@ -2,8 +2,8 @@
 """ determining the fewest number of coins to be given as change"""
 
 def makeChange(coins, total):
-    '''Returns fewest number of coins needed'''
-    if total < 1:
+    '''Return: fewest number of coins needed'''
+    if total <= 0:
         return 0
     coins.sort()
     coins.reverse()
