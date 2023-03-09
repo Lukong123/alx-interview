@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""Who wins the game"""
+"""Module defines game of primes"""
 
 
 def isPrime(n):
-    '''checks if n is prime '''
+    '''checks n is prime or not'''
     if n == 1:
         return False
     if n == 2:
@@ -13,10 +13,11 @@ def isPrime(n):
         if n % d == 0:
             return False
         d = d - 1
-        return True
+    return True
+
 
 def gameWinner(x, nums):
-    '''returns winner of the round'''
+    '''returns the round winner'''
     count = 0
     try:
         if x < 1 and len(nums) < 0:
@@ -31,12 +32,11 @@ def gameWinner(x, nums):
     return "Maria"
 
 
-def isWinner(x, num):
-    '''returns the winner in game of primes'''
+def isWinner(x, nums):
+    '''plays game of primes and returns the winner'''
     Ben = 0
     Maria = 0
     game = None
-
     for r in range(x):
         numlist = []
         for num in range(nums[r] + 1):
@@ -51,5 +51,3 @@ def isWinner(x, num):
     if Maria > Ben:
         return "Maria"
     return None
-
-    
