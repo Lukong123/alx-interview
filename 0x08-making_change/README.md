@@ -8,3 +8,9 @@ Given a pile of coins of different values, determine the fewest number of coins 
 - The value of a coin will always be an integer greater than 0
 - You can assume you have an infinite number of each denomination of coin in the list
 - Your solution’s runtime will be evaluated in this task
+
+### Expected Results
+`./main_0.py`
+[[7, 4, 1],
+[8, 5, 2],
+[9, 6, 3]]
