@@ -12,3 +12,8 @@ n = 9
 H => Copy All => Paste => HH => Paste =>HHH => Copy All => Paste => HHHHHH => Paste => HHHHHHHHH
 
 Number of operations: 6
+
+### Expected Results
+`./0-main.py`
+Min number of operations to reach 4 characters: 4
+Min number of operations to reach 12 characters: 7
