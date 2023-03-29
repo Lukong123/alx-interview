@@ -11,3 +11,8 @@ Prototype: `def canUnlockAll(boxes)`
 - The first box `boxes[0]` is unlocked
 - Return `True` if all boxes can be opened, else return `False`
 
+### Expected Results
+`./main_0.py`
+True
+True
+False
